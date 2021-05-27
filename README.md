@@ -2,6 +2,7 @@
  IPFSMultihash-on-Solidity for tracking NFT multihash addresses and information
  
 This project has been modified from the original version found at: https://github.com/saurfang/ipfs-multihash-on-solidity
+
 It's been updated deal with newer js and Solidity syntaxes and to store the multihashes in a mapping whose key is an index, as opposed to the original idea which mapped the multihashes to addresses. The index will be useful in real-world situations where an NFT, which has an index, can be tied to a piece of digital content stored on IPFS. Much of the original README contains alot of relevant information and so I've left it mostly untouched below.
 
 ## Original ReadMe (with slight modifications)
